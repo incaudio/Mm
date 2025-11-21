@@ -112,13 +112,9 @@ export function ModernHero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-8"
+          className="mb-1"
         >
-          <h2 className="text-xl md:text-2xl font-light mb-6 text-white">
-            Hello! We are
-          </h2>
-          
-          <div className="mb-8">
+          <div className="mb-1">
             <TypingEffect />
           </div>
 
@@ -126,7 +122,7 @@ export function ModernHero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="text-xl md:text-2xl text-pink-300 font-light italic mb-8"
+            className="text-xl md:text-2xl text-pink-300 font-light italic mb-1"
           >
             The music of revolution,
             <br />
